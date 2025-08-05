@@ -1,0 +1,16 @@
+# Hazy_Coderz
+
+# Backbencher-db
+
+# Postgresql Task 4
+
+Insert a new employee record into the `employees` table with `first_name` 'Michael', `last_name` 'Scott', `email` 'michael.scott@example.com', `hire_date` '2024-01-01', `job_id` 3, `salary` 60000.00, and `department_id` 3,date_of_birth '2002-10-09'
+
+
+Task 4 answer
+
+syntax
+
+	INSERT INTO 'table-to-insert-data' (columns-to-be-inserted,column1,...) VALUES (values-in-the-column,value1,...);
+
+ 	INSERT INTO employees (first_name,last_name,email, hire_date, job_id, salary, department_id) VALUES ('Micheal', 'Scott', 'micheal.scott@example.com','2024-01-01',3,60000.00,'2002-10-09')

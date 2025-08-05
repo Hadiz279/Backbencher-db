@@ -1,0 +1,14 @@
+# Hazy_Coderz
+
+# Backbencher-db
+
+# Postgresql Task 1
+
+# Write a/an SQL query to retrieve the `first_name`, `last_name`, and `email` of all employees
+
+
+Task 1 Answer
+
+	SELECT 'columns to be fetched' FROM 'table to retrieve data from'
+
+	SELECT first_name, last_name,email FROM employees;

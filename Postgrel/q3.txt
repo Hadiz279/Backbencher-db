@@ -1,0 +1,17 @@
+# Hazy_Coderz 
+
+# Backbencher-db
+
+#Postgresql Task 3
+
+Add a new column `date_of_birth` (DATE) to the `employees` table
+
+Task 3 Answer
+
+syntax 
+	ALTER TABLE 'table-name'
+	ADD COLUMN date_of_birth DATE
+
+	ALTER TABLE employees
+	ADD COLUMN date_of_birth DATE
+

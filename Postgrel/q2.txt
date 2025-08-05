@@ -1,0 +1,21 @@
+# Hazy_Coderz
+
+# Backbencher-db
+
+# Postgresql Task 2
+
+Create a new database named `company_hr_db` in PostgreSQL, and then load the `postgresql_schema.sql` and `postgresql_data.sql` into it
+
+1. syntax  to create your database from bash shell
+
+	sudo -u 'superuser' creatdb 'new-database-name'
+
+	sudo -u postgres createdb company_hr_db;
+
+2. syntax to load the local file into the database 
+
+	psql -U  myusername -d 'target-database' -f 'sql-files'
+
+	psql -U  backbencher -d company_hr_db -f postgresql_schema.sql
+
+	psql -U  backbencher -d company_hr_db -f postgresql_data.sql
